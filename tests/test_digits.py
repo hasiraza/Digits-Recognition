@@ -6,3 +6,10 @@ def test_digits_dataset():
 
     assert digits.data.shape[1] == 64
     assert len(digits.target_names) == 10
+
+
+def test_digits_classes():
+    digits = load_digits()
+
+    assert digits.target.min() == 0
+    assert digits.target.max() == 9
