@@ -1,0 +1,23 @@
+artifact_path: /home/muhammad-haseeb/Desktop/ss/Digits/mlruns/1/models/m-dc2e06cfa70b476a8bf3cd6fb585ff96/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-dc2e06cfa70b476a8bf3cd6fb585ff96
+model_size_bytes: 253639
+model_uuid: m-dc2e06cfa70b476a8bf3cd6fb585ff96
+prompts: null
+run_id: 170942e9aeb24be5abd9c230a8b7b2d6
+utc_time_created: '2026-09-15 14:18:26.096078'
