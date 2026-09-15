@@ -1,0 +1,5 @@
+outs:
+- md5: 7de5958a40c814e93acb56f85049964e
+  size: 494917
+  hash: md5
+  path: digits.csv
